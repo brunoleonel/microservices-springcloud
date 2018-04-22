@@ -1,0 +1,12 @@
+---
+spring:
+    profiles: dev
+default-config:
+    lang: pt
+    currency: BRL
+---
+spring:
+    profiles: qa
+default-config:
+    lang: en
+    currency: USD
