@@ -1,12 +1,12 @@
 ---
 spring:
     profiles: dev
-default-config:
+config:
     lang: pt
     currency: BRL
 ---
 spring:
     profiles: qa
-default-config:
+config:
     lang: en
     currency: USD
