@@ -8,6 +8,8 @@ public class Transaction {
 	private String currency;
 	private User user;
 	private List<Item> items;
+	private float taxUSD;
+	private float taxBRL;
 	
 	public String getId() {
 		return id;
@@ -32,5 +34,17 @@ public class Transaction {
 	}
 	public void setItems(List<Item> items) {
 		this.items = items;
+	}
+	public float getTaxUSD() {
+		return taxUSD;
+	}
+	public void setTaxUSD(float taxUSD) {
+		this.taxUSD = taxUSD;
+	}
+	public float getTaxBRL() {
+		return taxBRL;
+	}
+	public void setTaxBRL(float taxBRL) {
+		this.taxBRL = taxBRL;
 	}
 }

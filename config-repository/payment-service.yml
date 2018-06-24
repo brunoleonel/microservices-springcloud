@@ -13,4 +13,4 @@ config:
 ---
 default-tax:
     brl: 1
-    usd: 2
+    usd: 1
