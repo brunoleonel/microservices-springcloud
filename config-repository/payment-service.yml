@@ -10,3 +10,7 @@ spring:
 config:
     lang: en
     currency: USD
+---
+default-tax:
+    brl: 1
+    usd: 2
