@@ -17,6 +17,7 @@ import com.example.demo.models.Transaction;
 import com.example.demo.models.User;
 
 @RestController
+@RefreshScope
 public class PaymentController {
 
 	@Value("${default-tax.brl}")
