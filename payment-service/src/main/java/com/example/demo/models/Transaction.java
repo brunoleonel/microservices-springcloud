@@ -6,7 +6,7 @@ public class Transaction {
 
 	private String id;
 	private String currency;
-	private User user;
+	private Object user;
 	private List<Item> items;
 	private float taxUSD;
 	private float taxBRL;
@@ -23,10 +23,10 @@ public class Transaction {
 	public void setCurrency(String currency) {
 		this.currency = currency;
 	}
-	public User getUser() {
+	public Object getUser() {
 		return user;
 	}
-	public void setUser(User user) {
+	public void setUser(Object user) {
 		this.user = user;
 	}
 	public List<Item> getItems() {

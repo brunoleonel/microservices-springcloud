@@ -3,13 +3,13 @@ package com.example.demo;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import com.example.demo.models.Item;
 import com.example.demo.models.User;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 
-@Component
+@Service
 public class Integration {
 
 	@Autowired
